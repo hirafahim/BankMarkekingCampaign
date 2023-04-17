@@ -34,7 +34,7 @@ def predict():
 
     output = round(prediction[0], 2)
      
-    return render_template('Results.html', prediction_text="{}".format(output))
+    return render_template('index.html', prediction_text="{}".format(output))
 
 
 #When the Python interpreter reads a source file, it first defines a few special variables. 
